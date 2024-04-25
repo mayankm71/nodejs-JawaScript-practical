@@ -1,0 +1,16 @@
+const person = {
+    name: 'Mayank',
+    age: 25,
+    address: {
+        city:'Agra',
+        state:'up'    }
+};
+if ('age' in person){
+    console.log('person object has the age property');
+
+}
+if('email' in person){
+    console.log('person object has the email property');
+}else{
+    console.log('person object doest not has the email property');
+}
